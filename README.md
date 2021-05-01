@@ -29,12 +29,7 @@ You can find the starter code in the starter code folder of this GitHub repo.
 
 First let's get set up:
 
-1. After forking and cloning, run `npm install`.
-2. Install the `react` and `react-dom` packages.
-
-```bash
-$ npm install react react-dom
-```
+1. After forking and cloning, cd into the directory and run `npm install`.
 
 ### Bulma installation
 
