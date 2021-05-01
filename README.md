@@ -39,12 +39,6 @@ To get Bulma, install the npm package:
 $ npm install bulma
 ```
 
-You will have to import Bulma CSS in every component that will use it. You can do it with the following line:
-
-```javascript
-import "bulma/css/bulma.css";
-```
-
 ## Instructions
 
 ### Iteration 1 | `Navbar` component
