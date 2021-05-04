@@ -1,0 +1,8 @@
+@include card.core - styles;
+
+.my-card-content {
+    padding-left:200px;
+    height: 350px;
+    width: 350px;
+  }
+

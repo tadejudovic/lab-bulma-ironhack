@@ -1,0 +1,39 @@
+.endButtons {
+  display: flex;
+  justify-content: flex-end;
+}
+.signUpButton {
+  border-color: none !important;
+  background: rgb(103, 194, 255) !important;
+  border: unset !important;
+  outline: unset !important;
+  border-radius: 4px;
+  height: 30px;
+  color: white;
+  font-size: 14px;
+}
+
+.logInButton {
+  border-color: none !important;
+  background: rgb(8, 255, 173) !important;
+  border: unset !important;
+  outline: unset !important;
+  border-radius: 4px;
+  height: 30px;
+  color: black;
+  font-size: 14px;
+  margin-left: 12px;
+  margin-right: 20px;
+}
+
+.navbar-is-transparent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: grey;
+
+}
+
+.login{
+  padding-left: 20px;
+}
