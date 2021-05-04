@@ -9,7 +9,7 @@ function SignUpPage() {
             <FormField label="email" type="text" placeholder="type your email" />
             <FormField label="password" type="password" placeholder="password" />
 
-            <CoolButton class="button is-primary" name="Submit the Form" className="Signup"></CoolButton>
+            <CoolButton isSmall name="name" >Name</CoolButton>
 
         </div>
 

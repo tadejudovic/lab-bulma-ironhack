@@ -1,3 +1,4 @@
+import React from 'react';
 import CoolButton from '../CoolButton/CoolButton';
 import './Navbar.css';
 

@@ -1,4 +1,9 @@
+import React from 'react';
 import './CoolButton.css'
+
+const allPossibleClasses = {
+
+}
 
 function CoolButton(props) {
     return (

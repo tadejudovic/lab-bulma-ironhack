@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 import Navbar from './navbar/Navbar';
 import SignUpPage from './SignUpComponent/SignUp'
@@ -19,17 +20,10 @@ function App() {
 
         <div>
 
-
-
         </div>
-
-
-
 
       </body>
     </html>
-
-
 
   )
 }
