@@ -4,6 +4,20 @@ import Navbar from './navbar/Navbar';
 import SignUpPage from './SignUpComponent/SignUp'
 function App() {
 
+  const [counter, setCounter] = React.useState(1);
+
+
+  function Increment() {
+    setCounter(counter + 1)
+  }
+
+  function Decrement() {
+    setCounter(counter - 1)
+  }
+
+  function Footer(props) {
+    return <footer>{props.counter}</footer>
+  }
 
   return (
     <html lang="en">
@@ -14,6 +28,8 @@ function App() {
       </head>
       <Navbar></Navbar>
 
+
+
       <body>
 
         <SignUpPage></SignUpPage>
@@ -22,7 +38,15 @@ function App() {
 
         </div>
 
+        <p>{counter}</p>
+      <button onClick={Decrement}>-</button>
+      <button onClick={Increment}>+</button>
+
+
+        <Footer></Footer>
       </body>
+
+      
     </html>
 
   )
